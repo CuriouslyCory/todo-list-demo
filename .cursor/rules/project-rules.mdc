@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Specifications
+
+A simple web page where a user can type tasks into an input field and add them to a list. 
+Each task in the list should have a way to be removed (e.g., a "delete" button or a click event).
+
+# Primary Tech stack
+- NextJs 15.3.1 (app directory router)
+- React ^19.0.0
+- Tailwind ^4.0.0
+- Shadcn/ui
+- Zod
+
+Prefer using shadcn/ui components over building our own.
+
+Keep files clean and modular. 
+Keep files 500 lines or shorter unless splitting files creates performance or readability issues.
